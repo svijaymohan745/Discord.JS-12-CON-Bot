@@ -1,0 +1,18 @@
+{
+  "name": "con-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hulkie",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord.js": "^12.2.0",
+    "random-puppy": "^1.1.0",
+    "sqlite": "^4.0.11",
+    "vultrex.db": "^1.4.1"
+  }
+}
