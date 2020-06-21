@@ -1,3 +1,3 @@
-exports.token = "NzIwMzcxNjcxMjQ4MjczNTE4.Xu81zQ.2K9lY1EKjoudx916pGWbgIxabmE";
-exports.owners = [214291790566522881];
+exports.token = "TOKEN_HERE";
+exports.owners = [ID_HERE];
 exports.prefix = "_";
