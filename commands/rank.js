@@ -26,13 +26,13 @@ module.exports.run = async (client, message, args) => {
     ctx.fillText("EXP", 880, 210);
     ctx.fillText(`${data.xp} / ${data.level * 40} XP`, 880, 270);
        //Tag
-       ctx.font = "35px Roboto"
+       ctx.font = "30px Roboto"
        ctx.textAlign = "left";
        ctx.fillStyle = "#9a734b";
        ctx.fillText(member.user.discriminator, 560, 220);   
        ctx.fillText("#", 540, 220);   
     //Name
-    ctx.font = "bold 50px Roboto"
+    ctx.font = "bold 40px Roboto"
     ctx.textAlign = "left";
     ctx.fillStyle = "#fcba70";
     ctx.fillText(member.displayName, 380, 180);
