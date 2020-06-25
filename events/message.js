@@ -28,7 +28,7 @@ module.exports = async (client, message) => {
         
        
         message.reply(`Dayum !! 🥵 You are killing it at lvl **${levelInfo.level}**!`).then(msg => {
-            msg.delete({ timeout: 10000 })
+            msg.delete({ timeout: 60000 })
           })
         
     }
