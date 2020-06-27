@@ -22,9 +22,12 @@ module.exports = async (client, message) => {
     if (levelInfo.xp >= levelInfo.level * 40) {
         levelInfo.level++;
         levelInfo.xp = 0;
-        if (levelInfo.level >= 6){
+        if (levelInfo.level >= 4){
             message.member.roles.add("724237351944978452");
+        if (levelInfo.level >= 7){
+                message.member.roles.add("726424239615246387");
         }
+    }
         
        
         message.reply(`Dayum !! 🥵 You are killing it at lvl **${levelInfo.level}**!`).then(msg => {
