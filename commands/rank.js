@@ -54,7 +54,11 @@ module.exports.run = async (client, message, args) => {
                 ctx.font = "bold 45px Century Gothic"
                 ctx.textAlign = "left";
                 ctx.fillStyle = "#fcba70";
-                ctx.fillText(member.displayName, 360, 160);
+                name = member.displayName
+                if (name.length > 11){
+                    name = name.slice(0, 11) + '...'
+                }
+                ctx.fillText(name, 330, 150);
                 //rank
                 ctx.font = "bold 22px Century Gothic"
                 ctx.textAlign = "left";
