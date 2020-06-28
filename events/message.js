@@ -5,8 +5,7 @@ module.exports = async (client, message) => {
     if (!client.prefix[message.guild.id]) {
         client.prefix[message.guild.id] = await client.db.get(`prefix-${message.guild.id}`, client.prefix["default"]);
     }
-  
-   
+    
     const levelInfo = await client.db.get(`levelnew-${message.guild.id}-${message.author.id}`, {
         level: 1,
         xp: 0,
