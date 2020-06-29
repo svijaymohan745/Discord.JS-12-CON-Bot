@@ -14,16 +14,16 @@ module.exports = async (client, message) => {
     });
   
   
-    const generatedXp = Math.floor(Math.random() * 16);
+    const generatedXp = Math.floor(Math.random() * 6);
     levelInfo.xp += generatedXp;
     levelInfo.totalXp += generatedXp;
     
     if (levelInfo.xp >= levelInfo.level * 40) {
         levelInfo.level++;
         levelInfo.xp = 0;
-        if (levelInfo.level >= 4){
-            message.member.roles.add("724237351944978452");
         if (levelInfo.level >= 7){
+            message.member.roles.add("724237351944978452");
+        if (levelInfo.level >= 14){
                 message.member.roles.add("726424239615246387");
         }
     }
