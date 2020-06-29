@@ -1,0 +1,32 @@
+{
+    "message": {
+        "title": "Welcome To MBA 19-21",
+        "description": "Hi there, welcome to our batch group. Discord is a place where you can find integration on anything and everything.",
+        "color": 831018,
+        "image": {
+        "url": "https://i.imgur.com/eTD9rMJ.jpg"
+        },
+        "fields": [
+        {
+            "name": "👦🏻 👧🏻",
+            "value": " Head over to <#725079890004672522> get your roles to gain access to your desired channels"
+        },
+        {
+            "name": "🎧",
+            "value": "New to Discord ?, check out <#724846286830043170> to see how its done. Do text in the server if need help at anything inside discord."
+        },
+        {
+            "name": "🤖",
+            "value": "Join a voice channel, talk about",
+            "inline": true
+        },
+        {
+            "name": "💪",
+            "value": "memes and check out our plethora of discussions",
+            "inline": true
+        }
+        ]
+    },
+    "people_incoming": "welcome",
+    "message_welcome_group": " welcome to our server!!! :tada::hugging: ! Head over to <#725079890004672522> to get yourself roles to gain access to the channels, <#724846286830043170> is always there if are new to discord. Then go right ahead to your favorite channels and start exploring!!"
+}
