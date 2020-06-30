@@ -11,7 +11,7 @@ function find_level_from_xp(total_xp){
 
 module.exports.run = async (client, message, args) => {
     try{
-        if (message.channel.id != '720928436415365132'){
+        if (message.channel.id != '716192622212808745'){
             throw "IncorrectChannelUsage";
         }
         const user = message.mentions.users.first()
