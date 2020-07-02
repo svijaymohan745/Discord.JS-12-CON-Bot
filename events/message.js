@@ -14,7 +14,7 @@ module.exports = async (client, message) => {
     });
   
   
-    const generatedXp = Math.floor(Math.random() * 6);
+    const generatedXp = Math.floor(Math.random() * 8);
     levelInfo.xp += generatedXp;
     levelInfo.totalXp += generatedXp;
     
