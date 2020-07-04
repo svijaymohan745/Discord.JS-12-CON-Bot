@@ -101,7 +101,7 @@ module.exports.run = async (client, message, args) => {
 
 module.exports.help = {
     name: "rank",
-    description: "View a Member's Rank, mention a username afer command to view another person's rank.",
+    description: "Your Rank and Level for this Server",
     private: false
 }
 

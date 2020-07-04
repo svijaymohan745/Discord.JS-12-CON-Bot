@@ -6,7 +6,6 @@ module.exports.run = async (client, message, args) => {
     data = data.sort((a, b) => b.value.totalXp - a.value.totalXp);
     data = await Promise.all(data.map(async (data, index) => {
         const user = await client.users.fetch(data.key.split("-")[2]).catch(() => null);
-        console.log(user.tag);
         if (user) {
             return {
                 tag: user.tag,
