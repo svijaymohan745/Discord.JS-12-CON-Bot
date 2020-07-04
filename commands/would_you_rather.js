@@ -13,11 +13,7 @@ module.exports.run =  async (client, message, args) => {
     reply = {
         embed: {
             color: 3447003,
-            author: {
-                name: client.user.username,
-                icon_url: client.user.avatarURL
-            },
-            "title": "Lets Play Would You Rather!",
+            "title": "Lets Play Would You Rather! \n",
             "description": `Would you rather \n 🅰️ ${Option1} \n or \n :regional_indicator_b: ${Option2}`,
            
         },
