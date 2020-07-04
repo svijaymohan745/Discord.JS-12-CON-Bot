@@ -17,7 +17,7 @@ module.exports.run =  async (client, message, args) => {
                 name: client.user.username,
                 icon_url: client.user.avatarURL
             },
-            "title": "Help Commands",
+            "title": "Lets Play Would You Rather!",
             "description": `Would you rather \n 🅰️ ${Option1} \n or \n :regional_indicator_b: ${Option2}`,
            
         },
