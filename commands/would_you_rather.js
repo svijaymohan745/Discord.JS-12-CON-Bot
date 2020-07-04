@@ -30,7 +30,7 @@ module.exports.run =  async (client, message, args) => {
 }
 module.exports.help = {
     name: "wyr",
-    description: "The Would you Rather 3:) game"
+    description: "The Would you Rather game"
 }
 
 module.exports.requirements = {
