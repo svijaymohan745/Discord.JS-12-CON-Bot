@@ -1,17 +1,8 @@
-function find_level_from_xp(total_xp){
-    current_level = 0
-    xp_cap = 0
-    while(total_xp > 40){
-        xp_cap = xp_cap + (current_level) * 40
-        total_xp = total_xp - ((current_level+1)*40)
-        current_level = current_level + 1
-    }
-    return {level: current_level, xp_cap: xp_cap}
-}
+const utils = require('../utils/utils.js')
 
 module.exports.run = async (client, message, args) => {
     try{
-        if (message.channel.id != '716192622212808745'){
+        if (message.channel.id != '720928436415365132'){
             throw "IncorrectChannelUsage";
         }
         const user = message.mentions.users.first()
@@ -37,7 +28,7 @@ module.exports.run = async (client, message, args) => {
             levelInfo.xp = 0
         }
         else{
-            level_details = find_level_from_xp(levelInfo.totalXp)
+            level_details = utils.find_level_from_xp(levelInfo.totalXp)
             levelInfo.level = level_details.level
             levelInfo.xp = levelInfo.totalXp - level_details.xp_cap
         }
