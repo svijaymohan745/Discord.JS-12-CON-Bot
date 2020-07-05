@@ -1,8 +1,7 @@
 # CONBot 
 Discord bot built from [discord.js](https://discord.js.org/#/) and JavaScript
-            
-                Add our Bot to your server  
-    https://discord.com/api/oauth2/authorize?client_id=720371671248273518&permissions=0&scope=bot
+ 
+                    [Add the Bot to your server](https://discord.com/api/oauth2/authorize?client_id=720371671248273518&permissions=0&scope=bot) 
 
 | Command | Description |
 | ------ | ------ |
