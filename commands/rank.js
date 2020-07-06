@@ -13,6 +13,7 @@ module.exports.run = async (client, message, args) => {
     const member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
 
     const data = await client.db.get(`levelnew-${message.guild.id}-${member.id}`);
+    if (member.id == "720371671248273518") return message.reply("You trying to rank me bitch? I'm way above that!")
     if (!data) return message.reply("this member does not have a rank!");
     // console.log(data)
 
