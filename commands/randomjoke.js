@@ -9,7 +9,7 @@ module.exports.run = async (client, message, args, level) => {
 };
 
 module.exports.help = {
-    name: "randomjoke",
+    name: "joke",
     description: "Displays a random joke",
     private: false
 }
