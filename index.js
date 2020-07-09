@@ -3,9 +3,9 @@ const { Client, Collection } = require("discord.js");
 const { VultrexDB } = require("vultrex.db");
 
 const client = new Client({
+    partial: ['MESSAGE', 'CHANNEL', 'REACTION'],
     disableEveryone: true,
     disabledEvents: ["TYPING_START"]
-
 });
 
 const db = new VultrexDB({
