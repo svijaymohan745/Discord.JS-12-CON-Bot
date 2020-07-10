@@ -1,11 +1,10 @@
 
 module.exports.run = async (client, message, args) => {
     id = args[0]
-    reactions = await message.channel.messages.fetch(id).reactions
-    console.log(reactions)
-    // reaction =  reactions.cache.first()
-    // const users = reaction.users
-    // console.log(reactions.partial)
+    message = await message.channel.messages.fetch(id)
+    reactions = message.reactions.cache.array()
+    users = reactions[0].users
+    console.log(users.partial)
   
 }
 
