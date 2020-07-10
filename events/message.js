@@ -23,7 +23,7 @@ module.exports = async (client, message) => {
         levelInfo.xp = 0;
         if (levelInfo.level >= 7){
             message.member.roles.add("724237351944978452");
-        if (levelInfo.level >= 14){
+        if (levelInfo.level >= 12){
                 message.member.roles.add("726424239615246387");
         }
     }
